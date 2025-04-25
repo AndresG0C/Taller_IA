@@ -137,7 +137,7 @@ class RNAApp:
                 frame.pack(fill="x", pady=2)
                 ttk.Label(frame, text=f"Capa {i+1}:").pack(side="left")
                 entry = ttk.Entry(frame)
-                entry.insert(0, "100")  # Valor por defecto
+                entry.insert(0, "10")  # Valor por defecto
                 entry.pack(side="right", expand=True, fill="x")
                 self.neuron_entries.append(entry)
             
